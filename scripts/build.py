@@ -20,7 +20,9 @@ import lettering as L
 W, H = 3840, 2160
 FONTS = ROOT / "fonts"
 ESRGAN = Path(os.environ.get("ESRGAN", Path.home() / "Projects/retrobake/.tools/realesrgan/realesrgan-ncnn-vulkan"))
-MODEL = os.environ.get("RB_MODEL", "tongyi-mai/z-image-turbo")
+MODEL = os.environ.get("RB_MODEL", "black-forest-labs/flux.1-schnell")
+GW, GH = int(os.environ.get("RB_W", 1280)), int(os.environ.get("RB_H", 768))
+SCALE = os.environ.get("RB_SCALE", "3")
 
 
 def key():
@@ -36,11 +38,11 @@ def generate(prompt, seed, dest):
     q = urllib.parse.quote(prompt[:1800], safe="")
     if k:
         url = f"https://gen.pollinations.ai/image/{q}?" + urllib.parse.urlencode(
-            {"model": MODEL, "width": 1920, "height": 1088, "seed": seed, "nologo": "true", "safe": "true"})
+            {"model": MODEL, "width": GW, "height": GH, "seed": seed, "nologo": "true", "safe": "true"})
         hdr = {"Authorization": f"Bearer {k}"}
     else:
         url = f"https://image.pollinations.ai/prompt/{q}?" + urllib.parse.urlencode(
-            {"width": 1920, "height": 1088, "seed": seed, "nologo": "true"})
+            {"width": GW, "height": GH, "seed": seed, "nologo": "true"})
         hdr = {}
     for attempt in range(10):
         try:
@@ -64,9 +66,10 @@ def cover(im, w, h):
 
 
 def upscale(src):
-    out = src.with_name(src.stem + ".x2.png")
+    s = "2" if Image.open(src).width >= 1900 else SCALE
+    out = src.with_name(src.stem + f".x{s}.png")
     if not out.exists():
-        subprocess.run([str(ESRGAN), "-i", str(src), "-o", str(out), "-n", "realesr-animevideov3", "-s", "2"],
+        subprocess.run([str(ESRGAN), "-i", str(src), "-o", str(out), "-n", "realesr-animevideov3", "-s", s],
                        check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     return cover(Image.open(out).convert("RGB"), W, H)
 

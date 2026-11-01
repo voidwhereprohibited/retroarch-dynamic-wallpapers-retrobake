@@ -1,4 +1,4 @@
-backgrounds/**/*.x2.png
+backgrounds/**/*.x?.png
 dist/
 *.log
 __pycache__/
