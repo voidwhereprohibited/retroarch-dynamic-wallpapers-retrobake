@@ -1,0 +1,4 @@
+backgrounds/**/*.x2.png
+dist/
+*.log
+__pycache__/

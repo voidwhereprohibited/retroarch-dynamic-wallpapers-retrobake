@@ -1,0 +1,135 @@
+{
+ "_note": "One prompt per style. {subject} = hardware/tab description. All original: no logos, characters or brand names. 'letter' = title lettering style (see lettering.py).",
+ "template_tail": "Composition: the subject is large and close-up on the RIGHT side of the image, filling the right 45 percent, slightly cropped by the right edge; the left half shows only the softer, darker background of the same scene. One seamless full-bleed scene edge to edge, no split panels, no borders, no frames. Ultra detailed, sharp focus, high contrast, rich color. Absolutely no text, no lettering, no numbers, no logos, no brand names, no people, no characters, no watermark.",
+ "styles": {
+  "synthwave-drive": {
+   "name": "Synthwave Drive",
+   "seed": 4104,
+   "accent": "#ff3d7f",
+   "prompt": "Retro 1980s synthwave scene: {subject}, on a glowing magenta neon grid floor, huge striped orange-to-pink sunset sun on the horizon, purple starry sky, chrome reflections, neon pink and cyan rim light.",
+   "letter": {
+    "kind": "chrome",
+    "font": "Audiowide-Regular.ttf",
+    "color": "#ffd25a",
+    "color2": "#ff2fa0",
+    "outline": "#2a0040",
+    "glow": "#ff3d7f"
+   }
+  },
+  "retro-neon": {
+   "name": "Retro Neon",
+   "seed": 5202,
+   "accent": "#ff2e88",
+   "prompt": "Pitch black studio, {subject}, outlined by hot pink neon tube light with glowing reflections on a black glossy floor, minimal, moody.",
+   "letter": {
+    "kind": "neon",
+    "font": "MrDafoe-Regular.ttf",
+    "color": "#ff2e88",
+    "scale": 1.5
+   }
+  },
+  "arcade-room": {
+   "name": "Arcade Room",
+   "seed": 6303,
+   "accent": "#b36bff",
+   "prompt": "Cinematic photo inside a dark 1980s arcade at night: {subject}, glowing CRT screens in the background, purple and blue ambient light, cosmic patterned carpet, shallow depth of field.",
+   "letter": {
+    "kind": "neon",
+    "font": "Audiowide-Regular.ttf",
+    "color": "#b36bff"
+   }
+  },
+  "teal-arcade": {
+   "name": "Teal Arcade",
+   "seed": 7404,
+   "accent": "#00f5d4",
+   "prompt": "Moody cinematic photo in a dark game room lit by teal and cyan LED light with red accents: {subject}, bokeh lights in the background, film grain.",
+   "letter": {
+    "kind": "neon",
+    "font": "TiltNeon.ttf",
+    "color": "#00f5d4"
+   }
+  },
+  "neon-chase": {
+   "name": "Neon Chase",
+   "seed": 8505,
+   "accent": "#ffd400",
+   "prompt": "Deep navy black background with horizontal glowing neon light streaks in red, yellow and cyan racing across, {subject} glowing with neon edges, retro arcade mood, scanlines.",
+   "letter": {
+    "kind": "neon",
+    "font": "PressStart2P-Regular.ttf",
+    "color": "#ffd400"
+   }
+  },
+  "classic-controller": {
+   "name": "Classic Controller",
+   "seed": 9606,
+   "accent": "#d7261e",
+   "prompt": "Minimal flat graphic poster on matte black with thin dark red horizontal stripes and grey ribbed panels: {subject}, studio product shot, crisp.",
+   "letter": {
+    "kind": "stencil",
+    "font": "BlackOpsOne-Regular.ttf",
+    "color": "#ffe14d",
+    "color2": "#d9a400"
+   }
+  },
+  "rainbow-pad": {
+   "name": "Rainbow Pad",
+   "seed": 1707,
+   "accent": "#f28c1c",
+   "prompt": "Vintage 1970s retro poster on grungy mustard yellow paper texture with rainbow stripes in red, orange, yellow, green, blue and purple fanning out from the bottom: {subject}, flat illustration, warm.",
+   "letter": {
+    "kind": "stripes",
+    "font": "Righteous-Regular.ttf",
+    "color": "#3a2414",
+    "stripes": [
+     "#d7261e",
+     "#f28c1c",
+     "#f5d23a",
+     "#3fa34d",
+     "#2f7fc1",
+     "#7b3fa0"
+    ]
+   }
+  },
+  "steel-claws": {
+   "name": "Steel Claws",
+   "seed": 2808,
+   "accent": "#ffc400",
+   "prompt": "Dark cinematic scene with flying orange sparks and steel blue lighting, brushed metal surfaces with yellow and dark blue accents: {subject}, dramatic lens flare, gritty.",
+   "letter": {
+    "kind": "comic",
+    "font": "Bangers-Regular.ttf",
+    "color": "#ffd23a",
+    "color2": "#e0a800",
+    "outline": "#0d1b3d",
+    "tilt": 3
+   }
+  },
+  "comic-heroes": {
+   "name": "Comic Heroes",
+   "seed": 3909,
+   "accent": "#e62429",
+   "prompt": "Bold comic book art style with thick black ink outlines, halftone dots and faded comic panels in dark grey behind: {subject}, punchy red, blue and yellow colors, dynamic angle.",
+   "letter": {
+    "kind": "comic",
+    "font": "Bangers-Regular.ttf",
+    "color": "#e62429",
+    "outline": "#ffffff",
+    "tilt": 4
+   }
+  },
+  "block-world": {
+   "name": "Block World",
+   "seed": 4010,
+   "accent": "#7bd64a",
+   "prompt": "Blocky voxel world made of grass, dirt and stone cubes under a bright blue sky with square clouds: {subject} built out of chunky voxel blocks, bright saturated colors.",
+   "letter": {
+    "kind": "mcblock",
+    "font": "Silkscreen-Regular.ttf",
+    "color": "#8f8f8f",
+    "extrude": "#4a4a4a"
+   }
+  }
+ }
+}

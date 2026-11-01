@@ -1,0 +1,176 @@
+{
+ "_note": "Brand-free hardware descriptions for prompts. Keys are exact RetroArch playlist names. 'alt' = other playlist names that get a copy.",
+ "systems": {
+  "Nintendo - Nintendo Entertainment System": {
+   "short": "NES",
+   "year": "1985",
+   "hw": "a boxy grey and black vintage 8-bit home video game console with a front-loading cartridge door and a small rectangular two-button controller",
+   "alt": [
+    "Nintendo - Family Computer"
+   ]
+  },
+  "Nintendo - Super Nintendo Entertainment System": {
+   "short": "Super Nintendo",
+   "year": "1991",
+   "hw": "a light grey rounded retro 16-bit home video game console with purple sliding switches and a grey controller with four colorful round buttons",
+   "alt": [
+    "Nintendo - Super Famicom",
+    "Nintendo - Super Nintendo Entertainment System (E)"
+   ]
+  },
+  "Nintendo - Nintendo 64": {
+   "short": "Nintendo 64",
+   "year": "1996",
+   "hw": "a charcoal grey retro 64-bit home video game console with a top cartridge slot and a three-pronged controller with an analog stick"
+  },
+  "Nintendo - GameCube": {
+   "short": "GameCube",
+   "year": "2001",
+   "hw": "a small indigo purple cube-shaped video game console with a carry handle and a purple controller"
+  },
+  "Nintendo - Wii": {
+   "short": "Wii",
+   "year": "2006",
+   "hw": "a slim glossy white standing video game console beside a white motion remote controller"
+  },
+  "Nintendo - Game Boy": {
+   "short": "Game Boy",
+   "year": "1989",
+   "hw": "a grey brick-shaped vintage handheld game console with a green monochrome screen, a cross d-pad and two magenta buttons"
+  },
+  "Nintendo - Game Boy Color": {
+   "short": "Game Boy Color",
+   "year": "1998",
+   "hw": "a translucent purple retro handheld game console with a small color screen and a d-pad"
+  },
+  "Nintendo - Game Boy Advance": {
+   "short": "Game Boy Advance",
+   "year": "2001",
+   "hw": "an indigo horizontal handheld game console with a wide screen and shoulder buttons"
+  },
+  "Nintendo - Nintendo DS": {
+   "short": "Nintendo DS",
+   "year": "2004",
+   "hw": "a silver clamshell handheld game console with two screens, opened"
+  },
+  "Nintendo - Nintendo 3DS": {
+   "short": "Nintendo 3DS",
+   "year": "2011",
+   "hw": "a glossy aqua blue clamshell handheld game console with two screens and a circle pad, opened"
+  },
+  "Nintendo - Virtual Boy": {
+   "short": "Virtual Boy",
+   "year": "1995",
+   "hw": "a red and black tabletop stereoscopic visor game console on a bipod stand"
+  },
+  "Sega - Mega Drive - Genesis": {
+   "short": "Genesis",
+   "year": "1989",
+   "hw": "a sleek black retro 16-bit home video game console with a round raised cartridge area and a black three-button controller",
+   "alt": [
+    "Sega - Mega Drive - Genesis (E)",
+    "Sega - Mega Drive - Genesis (J)"
+   ]
+  },
+  "Sega - 32X": {
+   "short": "32X",
+   "year": "1994",
+   "hw": "a black mushroom-shaped cartridge add-on plugged into the top of a black 16-bit game console"
+  },
+  "Sega - Mega-CD - Sega CD": {
+   "short": "Sega CD",
+   "year": "1992",
+   "hw": "a black CD-ROM drive add-on with a front loading tray stacked under a black game console"
+  },
+  "Sega - Master System - Mark III": {
+   "short": "Master System",
+   "year": "1986",
+   "hw": "an angular black vintage 8-bit video game console with red accents and a red reset button",
+   "alt": [
+    "Sega - Master System - Mark III (alt)"
+   ]
+  },
+  "Sega - Game Gear": {
+   "short": "Game Gear",
+   "year": "1991",
+   "hw": "a black horizontal handheld game console with a backlit color screen and two blue buttons"
+  },
+  "Sega - Saturn": {
+   "short": "Saturn",
+   "year": "1995",
+   "hw": "a dark grey 32-bit CD video game console with an oval lid and a six-button controller"
+  },
+  "Sega - Dreamcast": {
+   "short": "Dreamcast",
+   "year": "1999",
+   "hw": "a small white square CD video game console with an orange swirl power light and a white controller with a memory screen"
+  },
+  "Sony - PlayStation": {
+   "short": "PlayStation",
+   "year": "1995",
+   "hw": "a light grey retro CD-based video game console with a round lid and a grey controller with two handles",
+   "alt": [
+    "Sony - PlayStation 1"
+   ]
+  },
+  "Sony - PlayStation 2": {
+   "short": "PlayStation 2",
+   "year": "2000",
+   "hw": "a slim matte black ridged DVD video game console standing upright with a black controller"
+  },
+  "Sony - PlayStation Portable": {
+   "short": "PSP",
+   "year": "2005",
+   "hw": "a glossy black widescreen handheld game console with a d-pad and four face buttons",
+   "alt": [
+    "Sony - PlayStation Portable (PSN)"
+   ]
+  },
+  "Atari - 2600": {
+   "short": "Atari 2600",
+   "year": "1977",
+   "hw": "a vintage wood-grain and black ribbed video game console with metal switches and a black joystick with a red button"
+  },
+  "Atari - Lynx": {
+   "short": "Lynx",
+   "year": "1989",
+   "hw": "a wide black vintage handheld game console with a backlit color screen in the middle"
+  },
+  "NEC - PC Engine - TurboGrafx 16": {
+   "short": "TurboGrafx-16",
+   "year": "1989",
+   "hw": "a long black video game console with orange accents and small credit-card sized game cards",
+   "alt": [
+    "NEC - PC Engine - TurboGrafx 16 (alt)"
+   ]
+  },
+  "SNK - Neo Geo": {
+   "short": "Neo Geo",
+   "year": "1990",
+   "hw": "a large black premium video game console with a big arcade stick controller with four colored buttons"
+  },
+  "MAME": {
+   "short": "Arcade",
+   "year": "1980s",
+   "hw": "a classic upright arcade cabinet with a glowing screen, joystick and colorful buttons",
+   "alt": [
+    "FBNeo - Arcade Games",
+    "MAME 2003-Plus",
+    "MAME 2010"
+   ]
+  }
+ },
+ "tabs": {
+  "Main Menu": "a wide establishing view of the scene with a retro game controller",
+  "Settings": "a close-up of glowing switches, knobs and circuit boards",
+  "History": "a stack of old game cartridges and discs",
+  "Favorites": "a single glowing golden game cartridge on a pedestal",
+  "Netplay": "two game controllers connected by glowing cables",
+  "Import Content": "an open box overflowing with game cartridges",
+  "Explore": "a wide view of shelves full of retro game consoles",
+  "Images": "a wall of retro photo frames with pixel art",
+  "Music": "a retro boombox and cassette tapes",
+  "Videos": "an old CRT television glowing in the dark",
+  "00 - Generic Background": "the scene with no objects, empty and calm"
+ }
+}
